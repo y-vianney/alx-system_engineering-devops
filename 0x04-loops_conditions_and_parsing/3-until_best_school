@@ -1,8 +1,8 @@
 #!/usr/bin/env bash
 # Until Best School loop
 
-count=10
-until [ $count -le 1 ]; do
+count=0
+until [ $count -ge 10 ]; do
 	echo "Best school"
-	count=$((count - 1))
+	count=$((count + 1))
 done
