@@ -2,7 +2,7 @@
 # Until Best School loop
 
 count=10
-until [ $count -le 0 ]; do
+until [ $count -le 1 ]; do
 	echo "Best school"
 	count=$((count - 1))
 done
